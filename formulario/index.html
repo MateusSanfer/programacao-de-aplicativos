@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="foto" src="images/android-chrome-192x192.png" alt="Foto Poo">
+        <nav class="menu">
+            <ul>
+                <li><a href="">Mais Fotos</a></li>
+                <li><a href="meuperfil.html" rel="next">Meu Perfil</a></li>
+                <li><a href="">Poo Anão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="titulo">Olá, Bem-Vindo a essa página de estudo!</h1>
+
+    <div class="wrapper">
+        <form>
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name"><!--ID com o mesmo conteúdo do for do label-->
+                </div>
+                <div class="form-group">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome">
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email"><!--ID com o mesmo conteúdo do for do label-->
+                </div>
+                <div class="form-group">
+                    <label for="website">Website:</label>
+                    <input type="text" id="website">
+                </div>
+            </div>
+            <div class="form-textarea">
+                <label for="mensagem">Escreva aqui sua mensagem:</label>
+                <textarea id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </div>
+    <div class="botao"><button >Cadastrar</button></div>
+    
+</body>
+</html>

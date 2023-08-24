@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(rgb(57, 216, 251), rgb(9, 6, 157));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa{
+    width: 300px;
+    height: auto;
+    display: flex;
+    background: white;
+    border-radius: 15%;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px black;
+    box-shadow: 1px -2px 2px rgb(133, 203, 250);
+}
+.caixa #on{
+    font-family: Geneva;
+    background: yellow;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    border: none;
+    color: rgb(189, 18, 18);
+    box-shadow: 1px -1px rgb(244, 219, 33);
+    
+}
+
+.caixa #off{
+    font-family: Geneva;
+    background: gray;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    box-shadow: 1px -1px rgb(93, 92, 84);
+}
+
+.caixa #consertar{
+    font-family: Geneva;
+    background: rgb(44, 182, 63);
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    box-shadow: 1px -1px rgb(93, 92, 84);
+}
+
+.sete{
+    padding: 20px;
+    color: white;
+}

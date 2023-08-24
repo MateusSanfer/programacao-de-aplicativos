@@ -1,0 +1,60 @@
+@font-face{/*Tras fontes personalizadas*/
+    font-family: barbie;
+    src: url("Barbie.otf");
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: barbie;
+    color: rgb(70, 11, 47);
+
+}
+
+hr{
+    width: 50%;
+    height: 10px;
+    background-color: rgb(68, 226, 247);
+    border: none; /* Remover a borda da imagem*/
+    outline: none; 
+}
+
+.paragrafo{
+    width: 50%;
+    text-align: justify;
+    display: block;
+    margin: auto;
+    color: rgb(112, 24, 100);
+}
+
+img{
+    width:450px;
+    height: 300px;
+
+}
+
+#caixa1{
+    width: 910px;
+    margin: auto;
+}
+
+#video{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background: url("/images/wallpapaerbarbie4.jpg");
+    background-size: cover; /* Colocar a imagem em tela cheia*/
+    
+}
+
+#letreiro{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: initial;
+    color: rgb(240, 101, 221);
+
+}
