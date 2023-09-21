@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url(/images/22.jpeg
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat; /* Não repetir*/
+    background-size: cover;
+    height: 100vh;
+    gap: 20px;
+    
+}
+
+.calendario{
+    background: rgba(93, 86, 86, 0.789);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgb(70, 64, 64);
+}
+
+.calendario .data{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0 16px 0;
+
+}
+
+.calendario .data p{
+    font-size: 50px;
+    
+}
+
+.calendario #mensagem{
+    padding: 15px 10px 10px 10px;
+    font-size: 30px;
+}
+
+
+.relogio{
+    background: rgba(227, 198, 119, 0.719);
+    color: black;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px 0 15px;
+    box-shadow: 2px 2px 12px rgb(111, 104, 82);
+
+}
+
+.relogio div{
+    background-color: rgba(240, 255, 246, 0.274);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 12px;
+    padding: 0px 5px 0px 5px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgb(156, 143, 105);
+}
+
+.relogio p{
+    font-size: 90px;
+}
