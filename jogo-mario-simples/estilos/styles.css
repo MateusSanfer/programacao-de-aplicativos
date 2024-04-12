@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Super Mario World";
+  src: url(/fontes/SuperMarioWorld.ttf);
+}
+
+@keyframes animarInimigos {
+  from {
+    right: -100px;
+  }
+  to {
+    right: 105%;
+  }
+}
+
+@keyframes puloPersonagem {
+  0% {
+    bottom: 100px;
+  }
+  40% {
+    bottom: 300px;
+  }
+  50% {
+    bottom: 300px;
+  }
+  60% {
+    bottom: 300px;
+  }
+
+  70% {
+    bottom: 300px;
+  }
+
+  80% {
+    bottom: 300px;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "Super Mario World";
+  font-size: 24px;
+}
+
+.puloPersonagem {
+  animation: puloPersonagem 500ms ease-out;
+}
+
+.animarInimigo{
+  animation: animarInimigos 14s infinite linear;
+}
+
+#cenario {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/imagens/cenario.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#ceu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/imagens/cenarioCeu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+#personagem {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(/imagens/marioParadoLadoDireito.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  bottom: 100px;
+  left: 0;
+}
+
+#inimigo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url(/imagens/inimigoLadoEsquerdo.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  bottom: 100px;
+  right: -100px;
+  
+}
+
+#menu-jogo {
+  position: absolute;
+  width: 1000px;
+  height: 150px;
+  background-image: url(/imagens/menuDoJogo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  top: 10px;
+}
+
+#bloco {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(/imagens/bloco.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  top: 536px;
+  right: 570px;
+}
+
+#tempo {
+  position: absolute;
+  top: 90px;
+  right: 776px;
+  color: #ffdf74;
+}
+
+#vidas {
+  position: absolute;
+  top: 92px;
+  left: 570px;
+  color: #dddada;
+}
+
+#moedas {
+  position: absolute;
+  top: 60px;
+  right: 542px;
+  color: #ffdf74;
+}
+
+#pontos {
+  position: absolute;
+  top: 90px;
+  right: 542px;
+  color: #dddada;
+}
+
+#reiniciar {
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(167, 34, 34);
+  color: aliceblue;
+  box-shadow: 4px 4px 4px rgb(51, 41, 41);
+  text-shadow: 2px 2px 3px rgb(56, 48, 48);
+  display: none;
+}
+
+#iniciar{
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(228, 173, 23);
+  color: aliceblue;
+  box-shadow: 4px 4px 4px rgb(51, 41, 41);
+  text-shadow: 2px 2px 3px rgb(56, 48, 48);
+  display: block;
+}
