@@ -1,4 +1,4 @@
-# Senai Programação de Aplicativos
+# Programação de Aplicativos
 
 Este repositório reúne os projetos desenvolvidos durante o curso **Desenvolvimento de Sistemsa no Senai Dendezeiros na disciplina Programação de Aplicativos**. Nele, foram explorados conceitos e práticas de criação de páginas web, desenvolvimento de jogos simples e integração com APIs, utilizando **JavaScript** e **React**.
 
